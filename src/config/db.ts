@@ -1,7 +1,7 @@
 import mongoose from "mongoose";
 
 const connectDBMongo= async ():Promise<void>=> {
-    const mongoUrl="mongodb://localhost:27017/user"; // mi ruta del mongo
+    const mongoUrl="mongodb://localhost:27017/user"; // ruta del mongo
 
     try{
         await mongoose.connect(mongoUrl);
